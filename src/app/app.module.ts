@@ -4,6 +4,7 @@ import { NgModule } from '@angular/core';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
+import { DisableControlModule } from './shared/directives/keyboard-manager/disabled-control/disable-control.module';
 
 @NgModule({
   declarations: [AppComponent],
@@ -12,6 +13,7 @@ import { AppComponent } from './app.component';
     YesNoButtonGroupModule,
     ReactiveFormsModule,
     FormsModule,
+    DisableControlModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
